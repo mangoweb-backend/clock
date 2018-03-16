@@ -1,0 +1,30 @@
+{
+	"name": "mangoweb/clock",
+	"type": "library",
+	"description": "Clock class",
+	"license": "proprietary",
+	"version": "0.1",
+	"require": {
+		"php": "~7.1"
+	},
+	"require-dev": {
+		"phpstan/phpstan-shim": "~0.9"
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		]
+	},
+	"repositories": [
+		{
+			"type": "path",
+			"url": "../*"
+		}
+	],
+	"config": {
+		"preferred-install": "dist",
+		"optimize-autoloader": true,
+		"classmap-authoritative": true,
+		"bin-compat": "full"
+	}
+}
