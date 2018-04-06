@@ -2,7 +2,7 @@
 	"name": "mangoweb/clock",
 	"type": "library",
 	"description": "Clock class",
-	"license": "proprietary",
+	"license": "MIT",
 	"version": "0.1",
 	"require": {
 		"php": "~7.1"
