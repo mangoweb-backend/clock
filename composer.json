@@ -3,7 +3,6 @@
 	"type": "library",
 	"description": "Clock class",
 	"license": "MIT",
-	"version": "0.1",
 	"require": {
 		"php": "~7.1"
 	},
