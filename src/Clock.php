@@ -24,7 +24,7 @@ class Clock
 
 			} else {
 				$now = new DateTimeImmutable('now', new DateTimeZone('UTC'));
-				$now->setTimestamp($now->getTimestamp()); // trim microseconds
+				$now = $now->setTimestamp($now->getTimestamp()); // trim microseconds
 				self::$now = $now;
 			}
 		}
