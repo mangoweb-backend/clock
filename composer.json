@@ -10,20 +10,8 @@
 		"phpstan/phpstan-shim": "~0.9"
 	},
 	"autoload": {
-		"classmap": [
-			"src/"
-		]
-	},
-	"repositories": [
-		{
-			"type": "path",
-			"url": "../*"
+		"psr-4": {
+			"Mangoweb\\Clock\\": "src/"
 		}
-	],
-	"config": {
-		"preferred-install": "dist",
-		"optimize-autoloader": true,
-		"classmap-authoritative": true,
-		"bin-compat": "full"
 	}
 }
